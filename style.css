@@ -1,0 +1,193 @@
+html{
+	background-color: white;
+	background-image:url('back.png');
+	background-size: 100% 100%;
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	background-position:center; 
+	font-family: verdana, serif;
+}
+
+
+#heading{
+	border:0%;
+	padding: 0%;
+	margin: 0%;
+}
+
+#heading h2{
+	font-family: 'Tangerine',helvetica,sans-serif;
+	color: #405766;
+	font-size: 800%;
+	text-shadow: 4px 4px 4px #aaa;
+	text-align: center;
+	margin: 1%  10%;
+}
+
+
+div#mainbody{
+/*	min-height:900px;	*/
+	background-color: #dde0e1;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border: 1px solid #405766;
+       	padding: 5% 5%;
+	box-shadow: 5px 5px 2px #565d62; 
+	-moz-box-shadow: 5px 5px 5px #565d62; 
+	-webkit-box-shadow: 5px 5px 2px #565d62; 
+}
+
+
+#toplinks{
+	background-color: #768692;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	margin-right: 40px;
+	word-spacing: 4em;
+	border-left: 1px solid #405766;
+	border-right: 1px solid #405766;
+	border-bottom: 1px solid #405766;
+	border-top: 1px solid #405766;
+	box-shadow: 5px 5px 2px #565d62; 
+	-moz-box-shadow: 5px 5px 5px #565d62; 
+	-webkit-box-shadow: 5px 5px 2px #565d62;
+	padding: 10px 0 ;
+}
+
+#toplinks form {
+	display:inline;
+	margin-right: 5%;
+	float:right;
+	text-align: right;
+}
+
+#toplinks input {
+	font-size: 110%;
+}
+
+#toplinks ul li form img {
+	height:auto;
+}
+
+#toplinks ul{
+	overflow:hidden;
+}
+
+#toplinks ul li{
+	display: inline;
+}
+
+#toplinks ul li a:link {
+	color: #232c33; 
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#toplinks ul li a:visited {
+	color: #3c4851;
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration:none;
+	}
+
+#toplinks ul li a:hover {
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration: underline;
+/*	font-style:italic; */
+	}
+
+#toplinks ul li a:active {
+	color: #3c4851;
+	font-size: 120%;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration:none;
+	}
+
+#container{
+	float: left;
+	padding-bottom: 20px;
+	border-bottom: 1px solid silver;
+}
+
+#content {
+	font-size: 120%;
+	font-weight: normal;
+	font-family: "OFL Sorts Mill Goudy TT",Helvetica, sans-serif;
+	margin: 0;
+	padding: 1px 0 30px 0;
+	width: 70%;
+	float: left;
+}
+
+#content a {
+	text-decoration:none;
+}
+
+#content a:link {
+	color:#232c33;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+#content a:visited {
+	color:#3c4851;
+}
+
+#morelinks{
+	background-color: #a1aaae;
+	margin: 0;
+	padding: 1px 0 30px 0;
+	width: 20%;
+	float: right;
+	border: 2px solid #405766;
+       	padding:0;
+	box-shadow: 5px 5px 2px #565d62; 
+	-moz-box-shadow: 5px 5px 5px #565d62; 
+	-webkit-box-shadow: 5px 5px 2px #565d62;
+	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	-webkit-border-radius: 0.4em;
+
+}
+
+#morelinks ul {
+	margin: 0;
+	padding: 0;
+}
+
+#morelinks li {
+	line-height: 2.5ex; 
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	list-style-type: none;
+	border-bottom: solid #405766 2px;
+}
+
+#footer{
+	margin-top: 17%;
+	text-align: center;
+	position: relative;
+	font-size: 90%;
+	float: none;
+}
+
+#footer a{
+	color: grey;
+}
+#footer a.nostyle{
+	color: white;
+	text-decoration: none;
+}
+#footer p.small{
+	color:grey;
+}
