@@ -1,0 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
+
+html{margin:10% 20%;}
+
+#mainbody{
+	font-size:200%;
+}
+
+#header h3{
+	text-align:center;
+	font-family:'IM Fell DW Pica', arial, serif;
+	font-size: 4em;
+}

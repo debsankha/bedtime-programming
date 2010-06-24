@@ -1,0 +1,8 @@
+<h3>Description</h3>
+This script simply copies an amarok playlist to any type of Music player and creates the playlist appropriate playlist in the device (Currently supported in Nokia smartphones only).
+<br><br>
+
+<h3>Dependency</h3>
+Depends on KDialog for producing the dialog boxes.
+
+

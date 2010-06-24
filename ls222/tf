@@ -1,0 +1,8 @@
+/etc/firestarter
+/etc/init.d/firestarter
+/etc/network/if-down.d/50firestarter
+/etc/network/if-up.d/50firestarter
+/etc/ppp/ip-down.d/50firestarter
+/etc/ppp/ip-up.d/50firestarter
+/etc/rcS.d/S05firestarter
+
