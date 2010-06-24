@@ -1,0 +1,1 @@
+A simulator for 2-d Ising model using the Metropolis algorithm. Wriiten in C (visualization using ncurses). The ribbon-type stable structuresforming at t<1.0 are really baffling me.
