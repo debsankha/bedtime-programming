@@ -7,33 +7,53 @@
 	</head>
 
 	<body>
-		<div id="header">
-			<h3>debsankha's place on the web</h3>
+		<div class="container" id="con1">
+			<div id="header">
+				<h3>debsankha's place on the web</h3>
+			</div>
 		</div>
-
 		<div id="links">
 			<ul>
-				<li><a href=''>home</a></li>
-				<li><a href=''>projects</a></li>
-				<li><a href=''>junk</a></li>
-				<li><a href=''>stats</a></li>
-				<li><a href=''>contact me</a></li>
-				<li><a href='http://books.google.co.in/books?uid=11074598323337045997&source=gbs_lp_bookshelf_list'>Google Books Library</a>
+				<li><a class="current" href='/index.html'>Home</a></li>
+				<li><a href=''>Projects</a></li>
+				<li><a href=''>Junk</a></li>
+				<li><a href=''>Stats</a></li>
+				<li><a href=''>Blog</a></li>
+				<li><a href='http://books.google.co.in/books?uid=11074598323337045997&source=gbs_lp_bookshelf_list'>Library</a>
+				<li><a href=''>Contact me</a></li>
+		<!--		<li><form action="/search" method="post">
+					<input type="text" name="searchstr" value="">
+					<input type="image" src="/se.png" name="button" value="Search!" height="25">
+				</form>
+				</li>  --!>
 			</ul>
 		</div>
 
-		<div id="mainbody">
-			<p>
-			I am Debsankha Manik, an undergraduate student majoring in physics at <abbr title="Indian Institute of Science Education and Research">IISER</abbr> Kolkata in West Bengal, India. Besides physics - my primary area of academic interest, I derive pleasure in learning about quite a few of other subjects including mathematics, programming, electronics, literature and history. I am a firm believer in free and open source software, especially GNU/Linux.
-			</p>
-			<p>
-			Various projects I have undertaken so far in the course of my undergraduate study are listed in the <a href='/projects'>Projects</a> page. In case of projects involving programming, the programs can also be found there. Some of the codes can also be found in my svn repository hosted at <a href=''>code.google.com</a>.
-			</p>
-			<p>Sometimes when my boredom with the everyday chores reaches a threshold level (or sometimes out of real necessity), I set out to do some arbitrary job (like creating this website) which do not always reach completion. Some of those informal <i>'projects'</i>, if you would call them, find their place of glory in the <a href='/junk'>Junk</a> page.
-			</p>
-			<p>
-			The <a href='/stats'>Stat</a> page displays some stats about either me or this website. The stats are generally updated by me using my IM client or a nautilus action, utilizing the 'Incoming XMPP Messages' service of appengine.
-			</p>
+		<div class="container" id="con2">
+	
+			<div id="mainbody">
+				<p>
+				<h3>Who am I?</h3>
+				I am Debsankha Manik, an undergraduate student majoring in physics at <a href="http://www.iiserkol.ac.in"><abbr title="Indian Institute of Science Education and Research">IISER</abbr> Kolkata</a> in West Bengal, India. Besides physics - my primary area of academic interest, I derive pleasure from dabbling in quite a few of other subjects including mathematics, programming, electronics, literature and history. I am a firm believer in free and open source software, especially GNU/Linux.
+				</p>
+				<h3>What's in this site?</h3>
+				<p>
+				Various projects I have undertaken so far in the course of my undergraduate study are listed in the <a href='/projects'>Projects</a> page. In case of projects involving programming, the programs can also be found there. Most of those codes are also hosted in this <a href="http://github.com/debsankha/bedtime-programming">public github repository</a>. All of them are licensed under GNU GPLv3, so if you want to use (I don't see why would you be tempted to do so, though!) or modify them, you are welcome to do so provided you comply with the terms of the aforementioned license.
+				</p>
+				<p>Sometimes when my boredom with the everyday chores reaches a threshold level (or sometimes out of real necessity), I set out to do some arbitrary job (like creating this website) which do not always reach completion. Some of those informal <i>'projects'</i>, if you would call them so, find their place of glory in the <a href='/junk'>Junk</a> page. Most of these codes are scattered across my <a href="http://github.com/debsankha">github repositories</a>, too.
+				</p>
+				<p>
+				The <a href='/stats'>Stat</a> page displays some stats about either me or this website. The stats are generally updated by me using my IM client or a nautilus action, utilizing the 'Incoming XMPP Messages' service of appengine.
+				</p>
+			</div>
+
+			<div id="footer">
+				<div id="logos">
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/in/"><img alt="Creative Commons License" src="/cc88x31.png"/></a>
+					<img alt="Powered by app engine" src="/appengine-silver-120x30.gif"/>
+					<img alt="Python powered" src="/python-powered-w-70x28.png"/>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

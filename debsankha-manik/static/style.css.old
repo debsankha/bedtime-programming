@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
-/*
+/*@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
 */
 
@@ -13,14 +12,13 @@ html{
 body{
 	margin: 2% 10% 5% 10%;
 	padding: 0;
-	border-right 1px solid #0c192c;
-	border-left 1px solid grey;
+	border: 1px solid DarkGray;
 	border-radius:1em;
 	-moz-border-radius:1em;
 	-webkit-border-radius:1em;
-	box-shadow: 15px 15px 35px #0c192c;
-	-moz-box-shadow: 15px 15px 35px #0c192c;
-	-webkit-box-shadow: 15px 15px 35px #0c192c;
+	box-shadow: 5px 5px 2px grey;
+	-moz-box-shadow: 5px 5px 2px grey;
+	-webkit-box-shadow: 5px 5px 2px grey;
 }
 
 a{
@@ -77,8 +75,8 @@ a:hover {
 
 #links{
 	margin: 0;
-	padding:0;
-	background-color:#ced4e0;	/*#a0cecf;Gainsboro;*/
+	padding:0 7% 0 0;
+	background-color:#a3b6d2;	/*#a0cecf;Gainsboro;*/
 	overflow:auto;
 	vertical-align:center;
 }
@@ -104,20 +102,11 @@ a:hover {
 	
 	float:left;
 	margin-top:0;
-	padding: 1% 1%;
+	padding:15px 8px;
 	display:inline;
 	text-align:center;
 	border-right: 1px solid Grey;
 	text-decoration:none;
-}
-
-#links ul li a.current{
-	background-color:AliceBlue;
-}
-
-#links ul li:last-child a{
-	border-right:0;
-	width: 14%;
 }
 
 #links ul li a:hover {
@@ -144,7 +133,7 @@ a:hover {
 }
 #header h3{
 	text-align:center;
-	font-family: "IM Fell DW Pica", helvetica, arial, serif;
+	font-family: helvetica, arial, serif;
 	font-size: 4em;
 }
 
