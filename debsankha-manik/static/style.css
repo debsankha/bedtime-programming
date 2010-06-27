@@ -14,7 +14,7 @@ body{
 	margin: 2% 10% 5% 10%;
 	padding: 0;
 	border-right 1px solid #0c192c;
-	border-left 1px solid grey;
+	border-left 1px solid black;
 	border-radius:1em;
 	-moz-border-radius:1em;
 	-webkit-border-radius:1em;
@@ -75,16 +75,54 @@ a:hover {
 /*	font-family: "Droid Serif", serif;*/
 }
 
+h3 a{
+	padding:6px;
+	background-color:#ced4e0;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h3 a:hover{
+	font-weight:normal;
+	text-decoration:none;
+}
+
 #links{
 	margin: 0;
 	padding:0;
-	background-color:#ced4e0;	/*#a0cecf;Gainsboro;*/
+	background-color:AliceBlue;	/*#a0cecf;Gainsboro;*/
 	overflow:auto;
 	vertical-align:center;
 }
 
+div.lev1{
+	display:none;
+}
+
+/*div.lev1#last{
+	display:block;
+}
+*/
+
+div.ptitle {
+	font-weight:bold;
+	font-style:italic;
+}
+
+div.pbody {
+}
+
+div.foot {
+	font-style:italic;
+}
+
+span.x{
+	background-color:CadetBlue;
+}
+
 #links ul {
 	display:block;
+	overflow:auto;
 	margin:0;
 	padding:0;
 }
@@ -92,9 +130,13 @@ a:hover {
 
 #links ul li{
 	display:inline;
+	overflow:auto;
+	margin:0;
+	padding:0;
 }
 
 #links ul li a{
+	background-color:#ced4e0;
 	font-style:normal;
 	font-size: 170%;
 	color: #0c192c;
@@ -107,13 +149,16 @@ a:hover {
 	padding: 1% 1%;
 	display:inline;
 	text-align:center;
-	border-right: 1px solid Grey;
+	border-right: 0 solid Grey;
+	border-bottom: 1px solid Grey;
 	text-decoration:none;
 }
 
 #links ul li a.current{
 	background-color:AliceBlue;
+	border-bottom: 0;
 }
+
 
 #links ul li:last-child a{
 	border-right:0;
@@ -149,6 +194,9 @@ a:hover {
 }
 
 
+
+
+
 #footer{
 	text-align: center;
 	font-size:120%;
@@ -156,16 +204,17 @@ a:hover {
 	padding: 2% 4% 3% 4%;
 }
 
-#footer img{
-	padding: 0 10%;
+#logos  img{
+	border:0;
+	margin:0;
+	padding: 0 5%;
 	display: inline;
-	float:left;
 	height: 5%;
 	width: auto;
 }
 
 #logos {
-	width: 90%;
+	text-align:center;
 	padding:0;
 	margin: 0 auto;
 	margin-left: auto;
