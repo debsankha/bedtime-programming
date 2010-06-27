@@ -11,7 +11,7 @@ html{
 }
 
 body{
-	margin: 2% 10% 5% 10%;
+	margin: 2% 11% 5% 10%;
 	padding: 0;
 	border-right 1px solid #0c192c;
 	border-left 1px solid black;
@@ -57,6 +57,12 @@ a:hover {
 */
 }
 
+#header h3{
+	text-align:center;
+	font-family: "IM Fell DW Pica", helvetica, arial, serif;
+	font-size: 4em;
+}
+
 #con2{
 
 	background-color:AliceBlue;
@@ -67,6 +73,7 @@ a:hover {
 	-moz-border-radius-bottomright:1em;
 	-webkit-border-bottom-right-radius:1em;
 }
+
 #mainbody{
 	color:#061717;				/*DarkSlateGrey;*/
 	padding: 2% 4%;
@@ -82,7 +89,7 @@ h3 a{
 	font-style:normal;
 }
 
-h3 a:hover{
+h3 a:hover {
 	font-weight:normal;
 	text-decoration:none;
 }
@@ -95,30 +102,6 @@ h3 a:hover{
 	vertical-align:center;
 }
 
-div.lev1{
-	display:none;
-}
-
-/*div.lev1#last{
-	display:block;
-}
-*/
-
-div.ptitle {
-	font-weight:bold;
-	font-style:italic;
-}
-
-div.pbody {
-}
-
-div.foot {
-	font-style:italic;
-}
-
-span.x{
-	background-color:CadetBlue;
-}
 
 #links ul {
 	display:block;
@@ -129,8 +112,9 @@ span.x{
 
 
 #links ul li{
+	height:20%;
 	display:inline;
-	overflow:auto;
+	overflow:hidden;
 	margin:0;
 	padding:0;
 }
@@ -143,14 +127,13 @@ span.x{
 	font-weight: bold;
 	display:block;
 	width: 12%;
-	
-	float:left;
+	float:left;  
 	margin-top:0;
 	padding: 1% 1%;
 	display:inline;
 	text-align:center;
-	border-right: 0 solid Grey;
-	border-bottom: 1px solid Grey;
+	-webkit-border-right: 0.1em solid Grey;
+	-webkit-border-bottom: 0.1em solid Grey;
 	text-decoration:none;
 }
 
@@ -187,12 +170,31 @@ span.x{
 #links input {
 	width 10%;
 }
-#header h3{
-	text-align:center;
-	font-family: "IM Fell DW Pica", helvetica, arial, serif;
-	font-size: 4em;
+
+div.lev1{
+	display:none;
 }
 
+/*div.lev1#last{
+	display:block;
+}
+*/
+
+div.ptitle {
+	font-weight:bold;
+	font-style:italic;
+}
+
+div.pbody {
+}
+
+div.foot {
+	font-style:italic;
+}
+
+span.x{
+	background-color:CadetBlue;
+}
 
 
 
