@@ -5,7 +5,7 @@ api_version: 1
 
 handlers:
 - url: /stat
-  script: stat.py
+  script: info.py
 
 - url: /_ah/xmpp/message/chat/
   script: stat.py

@@ -33,6 +33,8 @@ function whichElement(e)
 	{
 		targ = targ.parentNode;
 	}
+	
+	if (targ.className!='null') return 0;
 
 	var tname;
 	var oldtext;

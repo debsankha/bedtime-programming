@@ -4,9 +4,12 @@
 */
 
 html{
-	background-color:bisque;
-	background-image: url("/back.png");
+	width:100%;
+	background-color: #eff0f1;
+	background-image: url("/bgstrip.png");
 	background-size: 100% 100%;
+	background-repeat:repeat-y;
+	background-position:center;
 	font-family: Georgia, serif;
 }
 
@@ -18,9 +21,18 @@ body{
 	border-radius:1em;
 	-moz-border-radius:1em;
 	-webkit-border-radius:1em;
-	box-shadow: 15px 15px 35px #0c192c;
-	-moz-box-shadow: 15px 15px 35px #0c192c;
-	-webkit-box-shadow: 15px 15px 35px #0c192c;
+	box-shadow: 1em 1em 3em #0c192c;
+	-moz-box-shadow: 1em 1em 3em #0c192c;
+	-webkit-box-shadow: 1em 1em 3em #0c192c;
+}
+
+img.bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+/*	z-index:-1;*/
 }
 
 a{
@@ -66,7 +78,7 @@ a:hover {
 #con2{
 
 	background-color:AliceBlue;
-	padding: 1em 0 2% 0;
+	padding: 1em 0 0 0;
 	border: 0 2px 0 2px solid silver;
 	-moz-border-radius-bottomleft:1em;
 	-webkit-border-bottom-left-radius:1em;
@@ -82,11 +94,12 @@ a:hover {
 /*	font-family: "Droid Serif", serif;*/
 }
 
-h3 a{
+a.null {
 	padding:6px;
 	background-color:#ced4e0;
 	font-weight:normal;
 	font-style:normal;
+	text-decoration:none;
 }
 
 h3 a:hover {
@@ -112,11 +125,12 @@ h3 a:hover {
 
 
 #links ul li{
-	height:20%;
 	display:inline;
-	overflow:hidden;
 	margin:0;
 	padding:0;
+	clear:both;
+	list-style-type:none;
+
 }
 
 #links ul li a{
@@ -132,14 +146,13 @@ h3 a:hover {
 	padding: 1% 1%;
 	display:inline;
 	text-align:center;
-	-webkit-border-right: 0.1em solid Grey;
-	-webkit-border-bottom: 0.1em solid Grey;
+	outline: Grey solid 0.1em;
 	text-decoration:none;
 }
 
 #links ul li a.current{
 	background-color:AliceBlue;
-	border-bottom: 0;
+	outline:0;
 }
 
 
@@ -150,11 +163,14 @@ h3 a:hover {
 
 #links ul li a:hover {
 	background-color:AliceBlue;
+	text-decoration:underline;
+	
 }
 
 #links ul li a:active {
 }
 
+/*
 #links form {
 	padding:0;
 	display:inline;
@@ -171,8 +187,14 @@ h3 a:hover {
 	width 10%;
 }
 
+*/
 div.lev1{
 	display:none;
+	padding-bottom:2em;
+}
+
+div.lev1#first{
+	display:block;
 }
 
 /*div.lev1#last{
@@ -181,14 +203,20 @@ div.lev1{
 */
 
 div.ptitle {
+	padding-left:2em;
+	padding-bottom:1em;
 	font-weight:bold;
 	font-style:italic;
 }
 
 div.pbody {
+	padding-left:2em;
+	padding-bottom:1em;
 }
 
 div.foot {
+	padding-left:2em;
+	color:DarkSlateGray;
 	font-style:italic;
 }
 
@@ -203,7 +231,7 @@ span.x{
 	text-align: center;
 	font-size:120%;
 	border-top: 1px solid grey;
-	padding: 2% 4% 3% 4%;
+	padding: 2% 3% 3% 2%;
 }
 
 #logos  img{
@@ -211,6 +239,7 @@ span.x{
 	margin:0;
 	padding: 0 5%;
 	display: inline;
+	min-height:60px;
 	height: 5%;
 	width: auto;
 }
