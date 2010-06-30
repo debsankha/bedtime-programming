@@ -110,13 +110,30 @@ h3 a:hover {
 #links{
 	margin: 0;
 	padding: 0;
-	background-color:#ced4e0;	/*#a0cecf;Gainsboro;*/
-	overflow:hidden;
+	background-color:AliceBlue;	/*#a0cecf;Gainsboro;*/
+	overflow:auto;
 	vertical-align:center;
-	text-align:center;
 }
 
-#links a{
+
+#links ul {
+	display:block;
+	overflow:auto;
+	margin:0;
+	padding:0;
+}
+
+
+#links ul li{
+	display:inline;
+	margin:0;
+	padding:0;
+	clear:both;
+	list-style-type:none;
+
+}
+
+#links ul li a{
 	background-color:#ced4e0;
 	font-style:normal;
 	font-size: 170%;
@@ -128,29 +145,29 @@ h3 a:hover {
 	margin-top:0;
 	padding: 1% 1%;
 	display:inline;
-	border: 1% solid grey;
 	text-align:center;
+/*	outline: Grey solid 0.1em;*/
 	text-decoration:none;
 }
 
-#links a.current{
+#links ul li a.current{
 	background-color:AliceBlue;
 	outline:0;
 }
 
 
-#links a:hover {
+#links ul li:last-child a{
+	border-right:0;
+	width: 14%;
+}
+
+#links ul li a:hover {
 	background-color:AliceBlue;
 	text-decoration:underline;
 	
 }
 
-#links a:active {
-}
-
-#links a:last-child {
-	padding 1% 1%;
-	width: 14%;
+#links ul li a:active {
 }
 
 /*

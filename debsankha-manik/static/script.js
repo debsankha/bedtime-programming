@@ -13,6 +13,21 @@ Object.prototype.previousObject = function() {
 }
 
 
+function resize()
+{
+	var mydiv=document.getElementById("links");
+	var flink=document.getElementById("flink");
+	var llink=document.getElementById("llink");
+//	alert(mydiv.innerHTML);
+	var totwidth;
+	totwidth=parseFloat(mydiv.style.width);
+	alert(mydiv.style.scrollWidth);
+
+	var rem;
+	rem=totwidth-6*parseFloat(flink.width);
+	llink.width=rem.toString();
+}
+
 
 function whichElement(e)
 {

@@ -35,10 +35,11 @@ class LikedMovie(db.Model):
 class MainPage(webapp.RequestHandler):
 	def get(self):
 		self.response.out.write(html.before)
+		mov = db.GqlQuery("SELECT * FROM LikedMovie")
 
 		for movie in mov:
 			self.response.out.write("""<li>
-							<h3>%s</h3>
+							<h3 style="padding:0;margin:4px;">%s</h3>
 							<i> at %s</i>
 							</li>"""%(movie.Name,movie.date))
 			
@@ -47,13 +48,11 @@ class MainPage(webapp.RequestHandler):
 
 class XMPPHandler(webapp.RequestHandler):
 	def post(self):
-		if mesage.sender.count("deb5890@gmail.com")!=1:
-			return 0
-
 		message = xmpp.Message(self.request.POST)
-		mov=LikedMovie()
-		mov.Name=message.body
-		mov.put()
+		if message.sender.count('deb5890@gmail.com')==1:
+			mov=LikedMovie()
+			mov.Name=message.body+'  '+message.sender
+			mov.put()
 		
 
 

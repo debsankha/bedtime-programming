@@ -8,10 +8,14 @@ handlers:
   script: info.py
 
 - url: /_ah/xmpp/message/chat/
-  script: stat.py
+  script: info.py
 
 - url: /others
   script: others.py
+
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
 
 - url: /
   static_dir: static
