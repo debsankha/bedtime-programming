@@ -17,6 +17,10 @@ handlers:
   static_files: static/index.html
   upload: static/index.html
 
+- url: /misc/(.*)
+  static_files: static/misc/\1
+  upload: static/misc/(.*)
+
 - url: /
   static_dir: static
 

@@ -21,11 +21,6 @@ before="""<!DOCTYPE HTML>
 				<a href="http://books.google.co.in/books?uid=11074598323337045997&source=gbs_lp_bookshelf_list">Library</a>
 				<a href="/contact.html">Contact me</a>
 
-					<!--		<form action="/search" method="post">
-					<input type="text" name="searchstr" value="">
-					<input type="image" src="/se.png" name="button" value="Search!" height="25">
-				</form>
-				</li>  --!>
 		</div>
 
 		<div class="container" id="con2">

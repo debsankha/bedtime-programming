@@ -4,7 +4,7 @@
 */
 
 html{
-	width:100%;
+	min-width:870px;
 	background-color: #eff0f1;
 	background-image: url("/bgstrip.png");
 	background-size: 100% 100%;
@@ -14,7 +14,7 @@ html{
 }
 
 body{
-	margin: 2% 11% 5% 10%;
+	margin: 2% 10% 5% 10%;
 	padding: 0;
 	border-right 1px solid #0c192c;
 	border-left 1px solid black;
@@ -32,7 +32,6 @@ img.bg {
 	position: absolute;
 	top: 0;
 	left: 0;
-/*	z-index:-1;*/
 }
 
 a{
@@ -108,6 +107,7 @@ h3 a:hover {
 }
 
 #links{
+	width:auto;
 	margin: 0;
 	padding: 0;
 	background-color:#ced4e0;	/*#a0cecf;Gainsboro;*/
@@ -116,32 +116,33 @@ h3 a:hover {
 	text-align:center;
 }
 
-#links a{
+#links a {
 	background-color:#ced4e0;
 	font-style:normal;
 	font-size: 170%;
 	color: #0c192c;
 	font-weight: bold;
 	display:block;
-	width: 12%;
+	width: 14%;
 	float:left;  
 	margin-top:0;
-	padding: 1% 1%;
+	padding: 1% 0;
 	display:inline;
-	border: 1% solid grey;
+/*	border-right: 1px solid silver;*/
 	text-align:center;
 	text-decoration:none;
 }
 
 #links a.current{
 	background-color:AliceBlue;
-	outline:0;
+	border-bottom:0;
 }
 
 
 #links a:hover {
 	background-color:AliceBlue;
 	text-decoration:underline;
+	border-bottom:0;
 	
 }
 
@@ -149,28 +150,11 @@ h3 a:hover {
 }
 
 #links a:last-child {
-	padding 1% 1%;
-	width: 14%;
+	padding 1% 0;
+	width: 16%;
+	border-right:0;
 }
 
-/*
-#links form {
-	padding:0;
-	display:inline;
-	float:right;
-	text-align:right;
-}
-
-#links input {
-	position:relative;
-	position-top:13px;
-}
-
-#links input {
-	width 10%;
-}
-
-*/
 div.lev1{
 	display:none;
 	padding-bottom:2em;
@@ -192,6 +176,11 @@ div.ptitle {
 	font-style:italic;
 }
 
+ul#projects {
+	text-indent:0;
+	list-style-type:none;
+}
+
 div.pbody {
 	padding-left:2em;
 	padding-bottom:1em;
@@ -201,6 +190,15 @@ div.foot {
 	padding-left:2em;
 	color:DarkSlateGray;
 	font-style:italic;
+}
+
+div.foot a {
+	padding-left:1em;
+	color: DarkGrey;
+}
+
+div.foot a:hover {
+	text-decoration:underline;
 }
 
 span.x{

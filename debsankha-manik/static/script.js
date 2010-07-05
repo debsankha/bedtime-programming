@@ -13,19 +13,34 @@ Object.prototype.previousObject = function() {
 }
 
 
-function resize()
+function myresize()
 {
 	var mydiv=document.getElementById("links");
-	var flink=document.getElementById("flink");
-	var llink=document.getElementById("llink");
-//	alert(mydiv.innerHTML);
-	var totwidth;
-	totwidth=parseFloat(mydiv.style.width);
-	alert(mydiv.style.scrollWidth);
-
-	var rem;
-	rem=totwidth-6*parseFloat(flink.width);
-	llink.width=rem.toString();
+	var num=mydiv.getElementsByTagName("a").length
+	var llink=mydiv.getElementsByTagName("a")[num];
+	var flink=mydiv.getElementsByTagName("a")[0];
+	var totwidth=mydiv.offsetWidth;
+	var border_width=1;
+	var awidth=Math.floor(totwidth/num)-border_width;
+	var rem=totwidth-(num-1)*(awidth+border_width);
+	var i=0;
+	while (i<num-1)
+	{
+		mydiv.getElementsByTagName("a")[i].style.width=awidth+"px";
+		mydiv.getElementsByTagName("a")[i].style.borderRight=border_width+"px solid silver";
+		i++;
+	}
+	
+	rem=totwidth;
+	i=0;
+	/* these peculiar lines are added because chrome is making the first 6 links wider*/
+	while (i<num-1)
+	{
+		rem-=(mydiv.getElementsByTagName("a")[i].offsetWidth);
+		i++;
+	}
+	
+	mydiv.getElementsByTagName("a")[num-1].style.width=rem+"px";
 }
 
 
