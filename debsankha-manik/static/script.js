@@ -36,7 +36,7 @@ function myresize()
 	/* these peculiar lines are added because chrome is making the first 6 links wider*/
 	while (i<num-1)
 	{
-		rem-=(mydiv.getElementsByTagName("a")[i].offsetWidth);
+		rem-=(mydiv.getElementsByTagName("a")[i].offsetWidth+border_width);
 		i++;
 	}
 	

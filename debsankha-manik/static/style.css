@@ -135,13 +135,11 @@ h3 a:hover {
 
 #links a.current{
 	background-color:AliceBlue;
-	border-bottom:0;
 }
 
 
 #links a:hover {
 	background-color:AliceBlue;
-	text-decoration:underline;
 	border-bottom:0;
 	
 }
