@@ -51,7 +51,7 @@ class XMPPHandler(webapp.RequestHandler):
 		message = xmpp.Message(self.request.POST)
 		if message.sender.count('deb5890@gmail.com')==1:
 			mov=LikedMovie()
-			mov.Name=message.body+'  '+message.sender
+			mov.Name=message.body
 			mov.put()
 		
 

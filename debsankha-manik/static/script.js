@@ -33,14 +33,16 @@ function myresize()
 	
 	rem=totwidth;
 	i=0;
-	/* these peculiar lines are added because chrome is making the first 6 links wider*/
+	/* these peculiar lines had to be added because chrome is making the first 6 links wider*/
 	while (i<num-1)
 	{
-		rem-=(mydiv.getElementsByTagName("a")[i].offsetWidth+border_width);
+		rem-=(mydiv.getElementsByTagName("a")[i].offsetWidth);
 		i++;
 	}
 	
 	mydiv.getElementsByTagName("a")[num-1].style.width=rem+"px";
+	mydiv.getElementsByClassName("current")[0].style.borderBottom="0";
+
 }
 
 

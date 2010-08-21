@@ -1,7 +1,7 @@
 before="""<!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Debsankha's projects</title>
+		<title>Debsankha's place on the web : stats</title>
 		<link rel="stylesheet" href="/style.css" type="text/css">
 		<script type="text/javascript" src="/script.js"></script>
 		<script type="text/javascript">

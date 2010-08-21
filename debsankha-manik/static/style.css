@@ -50,7 +50,7 @@ a:hover {
 	margin-bottom:0;
 	color:white;
 	padding: 2%;
-	border-bottom: 4px solid DarkGrey;
+	border-bottom: 2px solid DarkGrey;
 	-moz-border-radius-topleft:1em;
 	-webkit-border-top-left-radius:1em;
 	-moz-border-radius-topright:1em;
@@ -60,7 +60,7 @@ a:hover {
 #header{
 	margin:0;
 	color:white;
-	padding: 20px;
+	padding: 0.7em;
 /*	border: 0 solid silver;
 	border-radius:0.8em;
 	--moz-border-radius:0.8em;
@@ -71,7 +71,7 @@ a:hover {
 #header h3{
 	text-align:center;
 	font-family: "IM Fell DW Pica", helvetica, arial, serif;
-	font-size: 4em;
+	font-size: 200%;
 }
 
 #con2{
@@ -89,7 +89,7 @@ a:hover {
 	color:#061717;				/*DarkSlateGrey;*/
 	padding: 2% 4%;
 	line-height: 1.5em;
-	font-size:170%;
+	font-size:100%;
 /*	font-family: "Droid Serif", serif;*/
 }
 
@@ -110,25 +110,26 @@ h3 a:hover {
 	width:auto;
 	margin: 0;
 	padding: 0;
+	border: 0;
 	background-color:#ced4e0;	/*#a0cecf;Gainsboro;*/
 	overflow:hidden;
 	vertical-align:center;
 	text-align:center;
+	clear:both;
 }
 
 #links a {
 	background-color:#ced4e0;
 	font-style:normal;
-	font-size: 170%;
+	font-size: 100%;
 	color: #0c192c;
 	font-weight: bold;
 	display:block;
 	width: 14%;
 	float:left;  
-	margin-top:0;
+	margin:0;
 	padding: 1% 0;
 	display:inline;
-/*	border-right: 1px solid silver;*/
 	text-align:center;
 	text-decoration:none;
 }
@@ -208,7 +209,7 @@ span.x{
 
 #footer{
 	text-align: center;
-	font-size:120%;
+	font-size:75%;
 	border-top: 1px solid grey;
 	padding: 2% 3% 3% 2%;
 }
@@ -218,7 +219,7 @@ span.x{
 	margin:0;
 	padding: 0 5%;
 	display: inline;
-	min-height:60px;
+	min-height:2em;
 	height: 5%;
 	width: auto;
 }

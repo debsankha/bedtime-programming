@@ -21,6 +21,10 @@ handlers:
   static_files: static/misc/\1
   upload: static/misc/(.*)
 
+- url: /dp_SyntaxHighlighter/(.*)
+  static_files: static/dp_SyntaxHighlighter/\1
+  upload: static/dp_SyntaxHighlighter/(.*)
+
 - url: /
   static_dir: static
 
