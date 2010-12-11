@@ -1,6 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			 _gaq.push(['_setAccount', 'UA-19716668-2']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+		</script>
+
 		<title>Debsankha's place on the web : junk</title>
 		<link rel="stylesheet" href="/style.css" type="text/css">
 		<script type="text/javascript" src="/script.js"></script>
@@ -44,17 +56,17 @@
 				<ul>
 					<li>
 					<div class="ptitle">
-						<a href="http://github.com/debsankha/Lyrical">Lyrical: A lyric fetcher for Rhythmbox/Amarok</a>  <a class="null" href="#">hide</a>
+						<a href="http://github.com/debsankha/Lyrical">Lyrical: A lyric fetcher for Rhythmbox/Amarok</a>  <a class="null" >hide</a>
 
 					</div>
 					<div class='lev1' id='first'>
-						This program fetches the lyrics of the song currently playing in Rhythmbox or Amarok and displays them in a GTK window, <i>a la</i> lyricscripts of amarok. This is different, however, from all of them in one respect: instead of searching in some specific lyric database, it simply googles for the lyric, parses the HTML and extracts the lyrics. As a result, this can return the lyric of almost any song you throw at it. For more details, visit the <a href="#">project homepage</a> or checkout the code from <a href="http://github.com/debsankha/Lyrical">the github repository</a>.
+						This program fetches the lyrics of the song currently playing in Rhythmbox or Amarok and displays them in a GTK window, <i>a la</i> lyricscripts of amarok. This is different, however, from all of them in one respect: instead of searching in some specific lyric database, it simply googles for the lyric, parses the HTML and extracts the lyrics. As a result, this can return the lyric of almost any song you throw at it. For more details, visit the <a >project homepage</a> or checkout the code from <a href="http://github.com/debsankha/Lyrical">the github repository</a>.
 					</div>
 					</li>
 				
 					<li>
 					<div class='ptitle'>
-						<a href="ising_visual.py">A simulation of 2-d Ising spin system using VPython</a>  <a class="null" href="#">expand</a>
+						<a href="ising_visual.py">A simulation of 2-d Ising spin system using VPython</a>  <a class="null" >expand</a>
 					</div>
 					<div class='lev1'>
 						I wrote this program for my <a href="/projects.html#summ2009">summer project in 2009</a>. VPython is used to visualize the system as it evolves from a randomly assigned initial spin configuration according to the Metropolis algorithm. The ribbon like structures are formed for t&lt;1. Requires python-visual package on Ubuntu or Debian.
@@ -63,7 +75,7 @@
 
 					<li>
 					<div class='ptitle'>
-						<a href="ising.tar">The same ising model simulation in C using ncurses</a>  <a class="null" href="#">expand</a>
+						<a href="ising.tar">The same ising model simulation in C using ncurses</a>  <a class="null" >expand</a>
 					</div>
 					<div class='lev1'>
 						I had to rewrite the same program in C because the python-visual package was broken in Ubuntu 9.10 (Karmic Koala). The visualization part was done using ncurses, mostly copied from the <a href="http://abhidg.googlecode.com/svn/trunk/projects/ising/ising.c">code by abhidg</a>. Requires libncurses-dev package for compilation on Ubuntu or Debian.
@@ -72,7 +84,7 @@
 					
 					<li>
 					<div class='ptitle'>
-						<a href="/ls222.tar">A simulation of predator-prey system</a>  <a class="null" href="#">expand</a>
+						<a href="/ls222.tar">A simulation of predator-prey system</a>  <a class="null" >expand</a>
 					</div>
 					<div class='lev1'>
 						Written for my <a href='/projects.html'>Spring 2010 biology</a> project, this program exhibits coupled oscillation in both predator and prey population. Requires pygtk and cairo.
@@ -83,10 +95,10 @@
 	
 					<li>
 					<div class="ptitle">
-						<a href="/MTPsync.amarokscript.tar">Script to sync a music library with Nokia smartphones</a>  <a class="null" href="#">expand</a>
+						<a href="/nokia-sync.py">Script to sync a music library with Nokia smartphones</a>  <a class="null" >expand</a>
 					</div>
 					<div class=lev1>
-						After syncing, this program creates the appropriate playlists in the phone so that the phones default music player sees them after refreshing the music library once. Useful for typical nokia phones where creating a playlist is a big pain. The above link points to the amarokscript version though, which only works with Amarok 1.4. I hope to make it more usable in future, possibly by integrating with the notification area of the gnome-panel and adding Rhythmbox support. You can get the <a href="http://github.com/debsankha/bedtime-programming/tree/master/mtpsync/">latest version of the code here</a>.
+						This tiny python script uses the mighty rsync to get the job done. I wrote this after I made a disastrous attempt to sync my Nokia 5800 XpressMusic with iTunes : the official plugin from Nokia decided to delete all the existing files in my phone without even asking me!
 					</div>
 					</li>
 

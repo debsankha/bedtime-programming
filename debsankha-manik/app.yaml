@@ -13,6 +13,9 @@ handlers:
 - url: /others
   script: others.py
 
+- url: /auth
+  script: auth.py
+
 - url: /
   static_files: static/index.html
   upload: static/index.html
