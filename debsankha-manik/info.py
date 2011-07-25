@@ -41,7 +41,7 @@ class MainPage(webapp.RequestHandler):
 			self.response.out.write("""<li>
 							<h3 style="padding:0;margin:4px;">%s</h3>
 							<i> at %s</i>
-							</li>"""%(movie.Name,movie.date))
+							</li>"""%(movie.Name,movie.date.strftime("%H:%M %h %d, %Y")))
 			
 		self.response.out.write(html.after)
 
