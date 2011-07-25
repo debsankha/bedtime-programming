@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://www.debsankha.net/contact.html</loc>
+	<lastmod>Jan 16 18:12:09 2011</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.3</priority>
+</url>
+<url>
+	<loc>http://www.debsankha.net/index.html</loc>
+	<lastmod>Jan 16 18:29:00 2011</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://www.debsankha.net/junk.html</loc>
+	<lastmod>Jan 16 18:12:09 2011</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>http://www.debsankha.net/projects.html</loc>
+	<lastmod>Feb 16 02:29:12 2011</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>http://www.debsankha.net/stat</loc>
+	<lastmod>Jan 16 18:12:09 2011</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.4</priority>
+</url>
+</urlset>

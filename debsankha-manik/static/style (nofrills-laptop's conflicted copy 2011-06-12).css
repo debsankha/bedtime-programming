@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
+/*
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+*/
+
+html{
+	min-width:870px;
+	background-color: #eff0f1;
+	background-image: url("/bgstrip.png");
+	background-size: 100% 100%;
+	background-repeat:repeat-y;
+	background-position:center;
+	font-family: Georgia, serif;
+}
+
+body{
+	margin: 2% 10% 5% 10%;
+	padding: 0;
+	border-right 1px solid #0c192c;
+	border-left 1px solid black;
+	border-radius:1em;
+	-moz-border-radius:1em;
+	-webkit-border-radius:1em;
+	box-shadow: 1em 1em 3em #0c192c;
+	-moz-box-shadow: 1em 1em 3em #0c192c;
+	-webkit-box-shadow: 1em 1em 3em #0c192c;
+}
+
+img.bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+a{
+	color: #061717;
+	font-style:italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#con1{
+	background-color:#0c192c;	/*#1d2b35;*/
+	margin-bottom:0;
+	color:white;
+	padding: 2%;
+	border-bottom: 2px solid DarkGrey;
+	-moz-border-radius-topleft:1em;
+	-webkit-border-top-left-radius:1em;
+	-moz-border-radius-topright:1em;
+	-webkit-border-top-right-radius:1em;
+}
+
+#header{
+	margin:0;
+	color:white;
+	padding: 0.7em;
+/*	border: 0 solid silver;
+	border-radius:0.8em;
+	--moz-border-radius:0.8em;
+	--webkit-border-radius:0.8em;
+*/
+}
+
+#header h3{
+	text-align:center;
+	font-family: "IM Fell DW Pica", helvetica, arial, serif;
+	font-size: 200%;
+}
+
+#con2{
+
+	background-color:AliceBlue;
+	padding: 1em 0 0 0;
+	border: 0 2px 0 2px solid silver;
+	-moz-border-radius-bottomleft:1em;
+	-webkit-border-bottom-left-radius:1em;
+	-moz-border-radius-bottomright:1em;
+	-webkit-border-bottom-right-radius:1em;
+}
+
+#mainbody{
+	color:#061717;				/*DarkSlateGrey;*/
+	padding: 2% 4%;
+	line-height: 1.5em;
+	font-size:100%;
+/*	font-family: "Droid Serif", serif;*/
+}
+
+a.null {
+	padding:6px;
+	background-color:#ced4e0;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+}
+
+h3 a:hover {
+	font-weight:normal;
+	text-decoration:none;
+}
+
+#links{
+	width:auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color:#ced4e0;	/*#a0cecf;Gainsboro;*/
+	overflow:hidden;
+	vertical-align:center;
+	text-align:center;
+	clear:both;
+}
+
+#links a {
+	background-color:#ced4e0;
+	font-style:normal;
+	font-size: 100%;
+	color: #0c192c;
+	font-weight: bold;
+	display:block;
+	width: 14%;
+	float:left;  
+	margin:0;
+	padding: 1% 0;
+	display:inline;
+	text-align:center;
+	text-decoration:none;
+}
+
+#links a.current{
+	background-color:AliceBlue;
+}
+
+
+#links a:hover {
+	background-color:AliceBlue;
+	border-bottom:0;
+	
+}
+
+#links a:active {
+}
+
+#links a:last-child {
+	padding 1% 0;
+	width: 16%;
+	border-right:0;
+}
+
+div.lev1{
+	display:none;
+	padding-bottom:2em;
+}
+
+div.lev1#first{
+	display:block;
+}
+
+/*div.lev1#last{
+	display:block;
+}
+*/
+
+div.ptitle {
+	padding-left:2em;
+	padding-bottom:1em;
+	font-weight:bold;
+	font-style:italic;
+}
+
+ul#projects {
+	text-indent:0;
+	list-style-type:none;
+}
+
+div.pbody {
+	padding-left:2em;
+	padding-bottom:1em;
+}
+
+div.foot {
+	padding-left:2em;
+	color:DarkSlateGray;
+	font-style:italic;
+}
+
+div.foot a {
+	padding-left:1em;
+	color: DarkGrey;
+}
+
+div.foot a:hover {
+	text-decoration:underline;
+}
+
+span.x{
+	background-color:CadetBlue;
+}
+
+
+h3.code{font-family:monospace}
+
+#footer{
+	text-align: center;
+	font-size:75%;
+	border-top: 1px solid grey;
+	padding: 2% 3% 3% 2%;
+}
+
+#logos  img{
+	border:0;
+	margin:0;
+	padding: 0 5%;
+	display: inline;
+	min-height:2em;
+	height: 5%;
+	width: auto;
+}
+
+#logos {
+	text-align:center;
+	padding:0;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,3 @@
+You can open swi-prolog with command line switches
+	 -s init.pl -g init -t halt 
+to get the results without typing anything on the interpreter.
